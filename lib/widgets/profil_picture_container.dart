@@ -27,7 +27,10 @@ class ProfilPictureContaire extends StatelessWidget {
       ),
       child: Center(
         child: ClipOval(
-          child: Image.asset(asset),
+          child: Image.asset(
+            asset,
+            //fit: BoxFit.contain,
+          ),
         ),
       ),
     );

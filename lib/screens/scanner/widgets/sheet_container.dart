@@ -330,7 +330,7 @@ class _SheetContainerState extends State<SheetContainer> {
           height: 40,
         ),
         CustomButton(
-          color: Color.fromARGB(255, 57, 143, 77),
+          color: Palette.primaryColor,
           width: double.infinity,
           height: 35,
           radius: 5,

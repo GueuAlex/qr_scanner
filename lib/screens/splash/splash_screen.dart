@@ -36,7 +36,8 @@ class _SplashScreenState extends State<SplashScreen> {
               const SizedBox(height: 1),
               Column(
                 children: [
-                  SizedBox(
+                  Container(
+                    padding: const EdgeInsets.all(50),
                     width: 250,
                     height: 200,
                     child: Image.asset('assets/images/copy_logo.jpg'),
