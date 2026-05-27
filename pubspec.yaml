@@ -37,7 +37,7 @@ dependencies:
   mobile_scanner: ^2.1.0
   qr_flutter: ^4.0.0
   flutter_svg: ^2.0.5
-  intl: ^0.18.0
+  intl: any
   flutter_localizations:
     sdk: flutter
   double_back_to_close_app: ^2.1.0
@@ -86,7 +86,6 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
-    - assets/soung/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
